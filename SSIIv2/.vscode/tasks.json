@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cl.exe compilar archivo activo",
+            "command": "g++",
+            "args": [
+				"-ggdb3",
+				"-Wall",
+				"-Werror",
+				"-Wno-unused",
+				"-std=c11",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.o"
+			],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+}

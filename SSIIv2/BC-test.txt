@@ -1,0 +1,4 @@
+3
+R1: Si A Entonces C, FC=0.5
+R2: Si B Entonces D, FC=0.5
+R3: Si C y D Entonces E, FC=0.5
